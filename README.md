@@ -12,6 +12,7 @@ Customer churn prediction is critical for businesses to identify and retain at-r
 
 -> Gradient Boosted Trees
 
+
 🛠️ Technologies Used
 
 -> PySpark & Spark MLlib
@@ -20,10 +21,13 @@ Customer churn prediction is critical for businesses to identify and retain at-r
 
 -> Seaborn/Matplotlib (for visualization)
 
+
 📁 Kaggle Datasets
+
 Public telecom churn datasets from Kaggle.
 
 Each row in the dataset represents a customer and contains information such as call minutes, plan types, customer service calls, and churn status.
+
 
 🔍 Modeling Process
 
@@ -32,12 +36,14 @@ Each row in the dataset represents a customer and contains information such as c
 3. Model Training: Trained using MLlib on Spark clusters
 4. Model Selection: K-fold cross-validation to compare performance
 5. Evaluation Metrics: Accuracy, ROC-AUC, F1-score, Precision, Recall
+   
 
 | Model                  | Accuracy | AUC  |
 |------------------------|----------|------|
 | Naive Bayes            | 53.67%   | 0.61 |
 | Random Forest          | 88.91%   | 0.88 |
 | Gradient Boosted Trees | 92.05%   | 0.86 |
+
 
 
 📈 Key Findings
@@ -48,18 +54,22 @@ Each row in the dataset represents a customer and contains information such as c
 
 -> PySpark’s scalability proved highly effective for handling large-scale data.
 
+
 🚀 Future Scope
+
 -> Real-time churn detection with streaming data.
 
 -> ETL pipeline using Apache Spark and PostgreSQL.
 
 -> Integration of external data sources (e.g., demographics, sentiment).
 
+
 👩‍💻 Authors
 
 1. Gahana Nagaraja 
 2. Namratha Nagathihalli Anantha 
-3. Niharika Mysore Prakasha 
+3. Niharika Mysore Prakasha
+
 
 📚 References
 
