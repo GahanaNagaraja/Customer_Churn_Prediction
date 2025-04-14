@@ -3,10 +3,13 @@ Customer churn prediction using PySpark MLlib to identify at-risk users through 
 This project leverages PySpark and MLlib to predict customer churn based on telecom user data. It applies distributed computing to preprocess data, engineer features, and build scalable machine learning models that can predict whether a customer will churn, enabling data-driven retention strategies.
 
 📊 Project Overview
+
 Customer churn prediction is critical for businesses to identify and retain at-risk customers. This project processes telecom datasets using PySpark and applies machine learning algorithms to build and evaluate predictive models including:
 
 -> Naive Bayes
+
 -> Random Forest
+
 -> Gradient Boosted Trees
 
 🛠️ Technologies Used
